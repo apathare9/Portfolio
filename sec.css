@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+
+
+
+
+}
+
+.firstSection>div {
+    width: 34%;
+    margin-left: 2%;
+
+
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 65px 0;
+
+
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 75%;
+
+    margin: 65px 0;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 191vh;
+    margin-top: 1.1%;
+    margin-bottom: -36.8%;
+
+}
+
+.secondSection h1 {
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+
+.secondSection .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 125px 0;
+    display: flex;
+
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: -13px 84px;
+}
+
+.image-top {
+    width: 76px;
+    position: relative;
+    top: -82px;
+    left: -38px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 21px;
+    width: 150px;
+    font-size: 14px;
+    margin-left: -26px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 52px;
+    color: gray;
+    width: 204px;
+    font-size: 12px;
+    margin-left: -24px;
+}
+
+.vertical .breaker-box {
+    position: relative;
+    top: 30px;
+    width: 187px;
+    font-size: 14px;
+    margin-left: -24px;
+}
+
+.vertical .first-last {
+    position: relative;
+    top: 30px;
+    width: 150px;
+    font-size: 14px;
+    margin-left: -26px;
+}
+
+
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 110vh;
+    margin-top: 1.1%;
+
+}
+
+section#thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 110vh;
+    margin-top: 1.1%;
+}
+
+.thirdSection h1 {
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+
+/* ------------ PROJECTS SECTION ------------  */
+
+.box5 {
+    background-color: #17a2b8;
+    border: solid 1px white;
+    width: 70%;
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    transition: transform 0.2s;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.box5:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.box5 h1 {
+    font-size: 1.4vw;
+    letter-spacing: 5px;
+    font-weight: 100px;
+    color: #0F044C;
+}
+
+.box5 p {
+    font-size: 1.2vw;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.link {
+    width: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+/* ------------ Fourth SECTION ------------  */
+
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 72vh;
+    margin-top: 1.9%;
+    margin-bottom: -36.8%;
+
+}
+
+.fourthSection h1 {
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+
+.fourthSection .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 125px 0;
+    display: flex;
+
+}
+
+.fourthSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+}
+
+hr.fourth-hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 30px -57px;
+}
+
+/* FIFTH SECTION */
+
+
+.fifthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 52vh;
+    margin-top: 1.9%;
+}
+
+.fifthSection h1 {
+    font-size: 1.2rem;
+    margin-top: -83%;
+}
+
+hr.fifth-hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2px;
+    margin: 933px 84px;
+}
+
+/* SIXTH SECTION */
+.sixthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    margin-top: 1.9%;
+}
+
+.sixthSection h1 {
+    font-size: 1.2rem;
+    margin-top: -45%;
+}
+
+hr.sixth-hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2px;
+    margin: 497px 84px;
+    margin-top: -15px;
+}
+
+
+/*
+hr.third-hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 30px -57px;
+} 
+
+/* ------------ FOOTER SECTION ------------  */
+
+footer {
+    background-color: #0e0e1a;
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+
+img.img {
+    width: 31%;
+    margin-top: 60px;
+}
+    
+
+.sixth-rightSection {
+    font-size: 2.5rem;
+    text-align: left;
+    margin: -335px 0;
+    margin-left: 700px;
+    margin-top: -370px;
+
+}
+
+.sixth-text > h5{
+    font-size: 1rem;
+}
+
+.timeline-item{
+    margin: 284px 0;
+    margin-left: 559px;
+    margin-top: px;
+}
+
+.timelineHeading{
+    margin: 0 0px; font-size: 1.1rem;
+}
+
+.timeline-h5{
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+/** Seventh Section **/
+.seventhSection {
+    max-width: 22vw;
+    margin: auto;
+    height: 80vh;
+    margin-top: -35%;
+}
+
+.seventhSection h1 {
+    font-size: 1.2rem;
+    margin-top: -45%;
+}
+
+hr.seventh-hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2px;
+    margin: 497px 84px;
+    margin-top: -15px;
+}
